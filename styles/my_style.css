@@ -1,0 +1,151 @@
+body {
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   font-family: 'Poppins', sans-serif;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: visible;
+}
+
+.loginBox {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 325px;
+   min-height: 200px;
+   background: #80ed99;
+   border-radius: 10px;
+   padding: 40px;
+   box-sizing: border-box;
+}
+
+.user {
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 20px;
+}
+
+h3 {
+   margin: 0;
+   padding: 0 0 20px;
+   color: #38a3a5;
+   text-align: center;
+}
+
+.loginBox input {
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.loginBox input[type='email'],
+.loginBox input[type='password'],
+.loginBox input[type='text'] {
+   border: none;
+   border-bottom: 2px solid #22577a;
+   outline: none;
+   height: 40px;
+   color: #22577a;
+   background: transparent;
+   font-size: 16px;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+
+.loginBox input[type='email']:hover,
+.loginBox input[type='password']:hover,
+.loginBox input[type='text']:hover {
+   color: #22577a;
+   border: 1px solid #c7f9cc;
+   box-shadow: 0 0 5px #c7f9cc, 0 0 10px #38a3a5, 0 0 15px #22577a,
+      0 2px 0 black;
+}
+
+.loginBox input[type='email']:focus,
+.loginBox input[type='password']:focus,
+.loginBox input[type='text']:focus {
+   border-bottom: 2px solid #c7f9cc;
+}
+
+.inputBox {
+   position: relative;
+}
+
+.inputBox span {
+   position: absolute;
+   top: 10px;
+   color: #22577a;
+}
+
+.loginBox input[type='submit'] {
+   border: none;
+   outline: none;
+   height: 40px;
+   font-size: 16px;
+   background: #c7f9cc;
+   color: #22577a;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.loginBox a {
+   color: #262626;
+   font-size: 14px;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+   display: block;
+}
+
+.navbar {
+   position: sticky;
+   display: block;
+   top: 0;
+   width: 100%;
+   z-index: 5;
+}
+
+#loginView,
+#registerView {
+   margin: 0 auto;
+   padding: 0;
+   /*position: relative;*/
+   display: block;
+   width: 20%;
+}
+
+#loginView2 {
+   margin: 40% auto;
+   font-size: small;
+}
+
+#registerView2 {
+   margin: 45% auto;
+   font-size: small;
+}
+
+#cartEmpty {
+   margin: 0 auto;
+   padding: 0;
+   display: block;
+   width: 50%;
+}
+
+#cartText {
+   margin-left: 38%;
+   padding: 0;
+   display: block;
+   width: 50%;
+   color: #38a3a5;
+}
+
+a:hover {
+   color: #e1f4f3;
+}
+
+a {
+   color: #38a3a5;
+   text-decoration: none;
+}
